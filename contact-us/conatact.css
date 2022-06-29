@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(38, 35, 35);
+}
+
+.main-body-conatiner-conatct{
+    margin-top: 8rem;
+    width: 100%;
+
+}
+
+.conatact-input{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-top: 4rem;
+}
+
+.main-body-conatiner-conatct h4{
+    color: rgba(255, 255, 255, 0.793);
+    font-size: 3.5rem;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10%;
+}
+
+.conatact-input input{
+    width: 80%;
+    min-height: 3.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.601);
+    border-radius: 20px;
+    background-color: transparent;
+    padding-left: 2rem;
+    margin-top: 2.5rem;
+    color: white;
+}
+
+textarea{
+    margin-top: 2.5rem;
+    border-radius: 20px;
+    background-color: transparent;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    color: white;
+}
+
+button{
+    width: 6rem;
+    height: 2.5rem;
+    background-color: rgb(109, 18, 227);
+    border-radius: 25px;
+    border: none;
+    margin-top: 2rem;
+    color: white;
+    position:relative;
+    left: 25rem;
+    font-size: 1.2rem;
+}
